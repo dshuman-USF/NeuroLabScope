@@ -1,0 +1,47 @@
+scope (1.10.7) local; urgency=medium
+
+  * New version release
+
+ -- dshuman <dshuman@usf.edu>  Tue, 18 Feb 2020 15:26:47 -0500
+
+scope (1.10.6) local; urgency=medium
+
+  * New version release
+
+ -- dshuman <dshuman@usf.edu>  Tue, 29 Oct 2019 15:14:07 -0400
+
+scope (1.10.5) local; urgency=medium
+
+  * New version release
+
+ -- Dale Shuman <dshuman@health.usf.edu>  Thu, 17 Aug 2017 07:33:22 -0400
+
+scope (1.10.4) local; urgency=medium
+
+  * New version release
+
+ -- Dale Shuman <dshuman@health.usf.edu>  Wed, 16 Aug 2017 11:50:30 -0400
+
+scope (1.10.3) local; urgency=medium
+
+  * New version release
+
+ -- Russell O'Connor <roconnor@health.usf.edu>  Fri, 08 Jan 2016 10:06:49 -0500
+
+scope (1.10.2) local; urgency=medium
+
+  * New version release
+
+ -- Russell O'Connor <roconnor@health.usf.edu>  Thu, 19 Mar 2015 12:20:55 -0400
+
+scope (1.10.1) local; urgency=medium
+
+  * New version release
+
+ -- Russell O'Connor <roconnor@health.usf.edu>  Thu, 27 Mar 2014 10:57:01 -0400
+
+scope (1.10.0) local; urgency=low
+
+  * Initial Release.
+
+ -- roconnor <roconnor@health.usf.edu>  Thu, 06 Feb 2014 13:54:52 -0500
