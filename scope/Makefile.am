@@ -27,7 +27,7 @@ dist_doc_DATA = scope.pdf ChangeLog README COPYING LICENSE
 
 info_TEXINFOS = scope.texi
 
-checkin_files = $(scope_SOURCES) $(edt2ps_SOURCES) $(dist_doc_DATA) $(EXTRA_DIST) $(info_TEXINFOS) Makefile.am configure.ac ChangeLog
+checkin_files = $(scope_SOURCES) $(edt2ps_SOURCES) $(dist_DOC_DATA) $(EXTRA_DIST) $(info_TEXINFOS) Makefile.am configure.ac ChangeLog
 
 checkin_release:
 	git add $(checkin_files) && git commit -uno -S -m "Release files for version $(VERSION)"
