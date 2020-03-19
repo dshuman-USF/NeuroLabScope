@@ -29,17 +29,6 @@ info_TEXINFOS = scope.texi
 
 checkin_files = $(scope_SOURCES) $(edt2ps_SOURCES) $(dist_DOC_DATA) $(EXTRA_DIST) $(info_TEXINFOS) Makefile.am configure.ac ChangeLog
 
-checkin_release:
-	git add $(checkin_files) && git commit -uno -S -m "Release files for version $(VERSION)"
-
-checkpoint:
-	git add $(checkin_files) && git commit -uno -S -q -m "checkpoint files for version $(VERSION)"
-
-checkpoint_withcomment:
-	git add $(checkin_files) && git commit -uno -S -q
-
-
-
 deb:
 	@echo 'Making debian packages'
 	make distdir &&\
